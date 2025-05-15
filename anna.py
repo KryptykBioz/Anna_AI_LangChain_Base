@@ -204,7 +204,7 @@ class VTuberAI:
             "- Participant names\n"
             "- Personal details (preferences)\n"
             "- Important dates (birthdays)\n"
-            "Provide a concise paragraph summary as a diary entry from the perspective of Kira.\n\n"
+            "Provide a concise paragraph summary as a diary entry from the perspective of the assistant Anna.\n\n"
             + "\n".join(texts)
         )
         return self.llm(prompt).strip()
